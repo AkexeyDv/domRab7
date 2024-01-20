@@ -32,6 +32,16 @@ public class Main {
             population=population+population/1000*(rogd-smert);
             System.out.println("Год "+i+", численность населения составляет "+population);
         }
+        //Задание 4
+        int startSum=15000;
+        byte percVklad=7;
+        int sumFinal=startSum;
+        month=0;
+        while(sumFinal<12000000){
+            month=month+1;
+            sumFinal=sumFinal+sumFinal/100*percVklad;
+            System.out.println("Месяц "+month+": сумма накопления "+sumFinal);
+        }
 
 
     }
