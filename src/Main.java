@@ -13,6 +13,17 @@ public class Main {
             sum=sum+sum/100*percent+deltaSum;
             System.out.println("Месяц "+month+", сумма накоплений равна "+sum);
         }
+        //Задание 2
+        int i=1;
+        while(i<=10){
+            System.out.print(i+" ");
+            i++;
+        }
+        System.out.println();
+        for(i=10;i>=1;i--){
+            System.out.print(i+" ");
+        }
+        //
 
 
     }
