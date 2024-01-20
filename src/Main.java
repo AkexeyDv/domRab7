@@ -75,6 +75,18 @@ public class Main {
             System.out.println("Сегодня пятница, "+day+"-е число. Необходимо подготовить отчет.");
             day=day+7;
         }
+        //Задание 8
+        short God=2024;
+        int endGod=God+100;
+        int startGod=God-200;
+        int tekGod=0;
+        while(tekGod<=endGod){
+            if(tekGod>=startGod&&tekGod<=endGod){
+                System.out.println(tekGod);
+            }
+            tekGod=tekGod+79;
+        }
+
 
 
 
