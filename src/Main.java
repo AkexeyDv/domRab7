@@ -55,6 +55,20 @@ public class Main {
                 }
 
             }
+        //Задание 6
+        startSum=15000;
+        percVklad=7;
+        sumFinal=startSum;
+        month=0;
+        while(month<=12*9){
+            month=month+1;
+            sumFinal=sumFinal+sumFinal/100*percVklad;
+            if (month%6==0) {
+                System.out.println("Месяц " + month + ": сумма накопления " + sumFinal);
+            }
+
+        }
+        //Задание 7
 
 
 
