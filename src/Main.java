@@ -23,7 +23,15 @@ public class Main {
         for(i=10;i>=1;i--){
             System.out.print(i+" ");
         }
-        //
+        System.out.println();
+        //Задание 3
+        int population=12000000;
+        byte rogd=17;
+        byte smert=8;
+        for(i=1;i<=10;i++){
+            population=population+population/1000*(rogd-smert);
+            System.out.println("Год "+i+", численность населения составляет "+population);
+        }
 
 
     }
