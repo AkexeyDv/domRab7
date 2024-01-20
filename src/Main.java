@@ -69,6 +69,13 @@ public class Main {
 
         }
         //Задание 7
+        byte chisloPrimPyat=3;
+        int day=chisloPrimPyat;
+        while (day<=31){
+            System.out.println("Сегодня пятница, "+day+"-е число. Необходимо подготовить отчет.");
+            day=day+7;
+        }
+
 
 
 
